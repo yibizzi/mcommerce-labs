@@ -49,11 +49,6 @@ public class ClientController {
         return "Accueil";
     }
 
-    /*
-    * Étape (2)
-    * Opération qui récupère les détails d'un produit
-    * On passe l'objet "produit" récupéré et qui contient les détails en question à  FicheProduit.html
-    * */
     @RequestMapping("/details-produit/{id}")
     public String ficheProduit(@PathVariable int id,  Model model){
 
