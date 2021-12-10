@@ -33,6 +33,7 @@ public class ClientController {
     private MicroservicePaiementProxy paiementProxy;
 
 
+
     /*
     * Étape (1)
     * Opération qui récupère la liste des produits et on les affichent dans la page d'accueil.

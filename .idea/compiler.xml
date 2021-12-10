@@ -8,8 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mproduits" />
         <module name="config-server" />
-        <module name="mpaiement" />
         <module name="clientui" />
+        <module name="mpaiement" />
         <module name="mcommandes" />
         <module name="eureka-server" />
       </profile>
@@ -19,6 +19,9 @@
       <module name="config-server" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="mcommandes" target="1.8" />
+      <module name="microservice-commandes" target="1.8" />
+      <module name="microservice-paiement" target="1.8" />
+      <module name="microservice-produits" target="1.8" />
       <module name="mpaiement" target="1.8" />
       <module name="mproduits" target="1.8" />
     </bytecodeTargetLevel>
