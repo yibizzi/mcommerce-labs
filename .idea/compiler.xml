@@ -11,6 +11,7 @@
         <module name="api-gateway" />
         <module name="mpaiement" />
         <module name="clientui" />
+        <module name="spring-admin" />
         <module name="mcommandes" />
         <module name="eureka-server" />
       </profile>
@@ -27,6 +28,7 @@
       <module name="microservice-produits" target="1.8" />
       <module name="mpaiement" target="1.8" />
       <module name="mproduits" target="1.8" />
+      <module name="spring-admin" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -38,6 +40,7 @@
       <module name="mcommandes" options="-parameters" />
       <module name="mpaiement" options="-parameters" />
       <module name="mproduits" options="-parameters" />
+      <module name="spring-admin" options="-parameters" />
     </option>
   </component>
 </project>
